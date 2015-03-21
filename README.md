@@ -1,4 +1,4 @@
-# generator-boilerframe [![Build Status](https://secure.travis-ci.org/mikusriekstins/generator-boilerframe.png?branch=master)](https://travis-ci.org/mikusriekstins/generator-boilerframe)
+# generator-boilerframe
 Simple generator for quick start on frontend with Autoprefixer, Bourbon, Neat, Normalize or Meyer-reset. Option to use Jade for quick, modular markup.
 
 > [Yeoman](http://yeoman.io) generator
