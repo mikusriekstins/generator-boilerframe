@@ -1,0 +1,30 @@
+
+<% if (includeNormalize) { %>
+// Normalize for cross-browser styles
+@import '../../bower_components/normalize-scss/normalize';
+
+<% } if (includeReset) { %>
+// Eric Meyer’s reset
+@import '../../bower_components/meyer-reset/stylesheets/meyer-reset';
+
+<% } %>
+/*
+ * Browse happy for old browsers
+ ----------------------------------------*/
+
+.browsehappy {
+  margin: 0;
+  background: #ddd;
+  color: black;
+  padding: 1rem;
+}
+
+/*
+ * Base styling
+ ----------------------------------------*/
+
+body {
+	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	font-size: 100%;
+	line-height: 1.5;
+}

@@ -1,0 +1,23 @@
+
+/*
+ * Main SCSS file using SMACSS to 
+ * structure classes for modular and
+ * clean CSS
+ ----------------------------------------*/
+<% if (includeBourbon) { %>
+// Bourbon for easy CSS3
+@import '../../bower_components/bourbon/app/assets/stylesheets/bourbon';
+<% } if (includeNeat) { %>
+// Neat for semantic grids
+@import '../../bower_components/neat/app/assets/stylesheets/neat';
+<% } %>
+
+// Utilities and settings
+@import 'utils.scss';
+@import 'vars.scss';
+
+// Core SMACSS categories
+@import 'base.scss';
+@import 'layouts.scss';
+@import 'modules.scss';
+@import 'states.scss';

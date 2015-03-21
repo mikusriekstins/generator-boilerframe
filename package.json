@@ -1,0 +1,27 @@
+{
+  "name": "generator-boilerframe",
+  "version": "0.0.0",
+  "description": "Boilerframe. Basic boilerplate for quick frontent.",
+  "license": "CC",
+  "main": "app/index.js",
+  "repository": "mikusriekstins/generator-boilerframe",
+  "author": {
+    "name": "Mikus Riekstins",
+    "email": "mikus.riekstins@gmail.com",
+    "url": "https://github.com/mikusriekstins"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "files": [
+    "app"
+  ],
+  "keywords": [
+    "yeoman-generator"
+  ],
+  "dependencies": {
+    "yeoman-generator": "^0.18.9",
+    "chalk": "^1.0.0",
+    "yosay": "^1.0.2"
+  }
+}
