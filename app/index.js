@@ -106,9 +106,7 @@ module.exports = yeoman.generators.Base.extend({
       bower.dependencies['meyer-reset'] = '*';
     }
 
-    if (this.includeNeat || this.includeBourbon) {
-      this.write('bower.json', JSON.stringify(bower, null, 2));
-    }
+    this.write('bower.json', JSON.stringify(bower, null, 2));
   },
 
   // Scaffold file structure and copy boilerplate
