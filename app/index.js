@@ -58,7 +58,7 @@ module.exports = yeoman.generators.Base.extend({
 
       this.projectName = answers.name;
       this.includeAutoprefixer = hasFeature('autoprefixer');
-      this.includeBourbon = hasFeature('autoprefixer');
+      this.includeBourbon = hasFeature('bourbon');
       this.includeNeat = hasFeature('neat');
       this.includeJade = answers.jade;
       this.includeNormalize = answers.reset == 'Normalize' ? true : false;
